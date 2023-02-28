@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tVDanhSachSP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/purple_700"
+            android:text="@string/danhsachsanpham" />
+
+        <ImageButton
+            android:id="@+id/iBPopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/baseline_build_24"
+            android:contentDescription="Build" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tVMayTinh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="26sp"
+        android:text="@string/maytinh" />
+    <TextView
+        android:id="@+id/tVDienThoai"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="26sp"
+        android:text="@string/dienthoai" />
+    <TextView
+        android:id="@+id/tVTiVi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="26sp"
+        android:text="@string/tivi" />
+    <TextView
+        android:id="@+id/tVTuLanh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="26sp"
+        android:text="@string/tulanh" />
+    <TextView
+        android:id="@+id/tVMayGiat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="26sp"
+        android:text="@string/maygiat" />
+    <TextView
+        android:id="@+id/tVMayLanh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="26sp"
+        android:text="@string/maylanh" />
+</LinearLayout>

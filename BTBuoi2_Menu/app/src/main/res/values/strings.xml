@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BTBuoi2_Menu</string>
+    <string name="setting">Setting</string>
+    <string name="order">Order</string>
+    <string name="search">Search</string>
+    <string name="favorite">favorite</string>
+    <string name="maylanh">Máy Lạnh</string>
+    <string name="maygiat">Máy Giặt</string>
+    <string name="tulanh">Tủ Lạnh</string>
+    <string name="tivi">Ti Vi</string>
+    <string name="dienthoai">Điện Thoại</string>
+    <string name="maytinh">Máy Tính</string>
+    <string name="danhsachsanpham">Danh Sách Sản Phẩm</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+</resources>

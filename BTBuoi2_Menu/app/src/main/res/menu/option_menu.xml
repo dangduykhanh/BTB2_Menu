@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.droidcafeinput.MainActivity">
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/search"
+        app:showAsAction="always"
+        android:orderInCategory="10"
+        android:icon="@drawable/baseline_search_24"
+        />
+    <item
+        android:id="@+id/action_favorite"
+        android:title="@string/favorite"
+        app:showAsAction="ifRoom|withText"
+        android:orderInCategory="20"
+        android:icon="@drawable/baseline_favorite_24"
+        />
+    <item
+        android:id="@+id/action_setting"
+        android:title="@string/setting"
+        android:orderInCategory="30"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_order"
+        android:title="@string/order"
+        android:orderInCategory="40"
+        app:showAsAction="never"
+       />
+
+</menu>
